@@ -1,9 +1,9 @@
 export const WS_URL =
   process.env.NEXT_PUBLIC_WS_URL ??
-  "ws://localhost:8000/api/v1/ws/traffic";
+  "wss://traffic-management-system-xyet.onrender.com/api/v1/ws/traffic";
 
 export const API_URL =
-  process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
+  process.env.NEXT_PUBLIC_API_URL ?? "https://traffic-management-system-xyet.onrender.com";
 
 export const CHART_HISTORY_LENGTH = 60;
 
