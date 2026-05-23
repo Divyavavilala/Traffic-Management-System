@@ -5,31 +5,37 @@ A modern AI-powered smart traffic management system that uses Computer Vision, Y
 🚀 Features
 
 ✅ Realtime AI Traffic Analysis
+
 YOLOv8 vehicle detection
 Live congestion estimation
 Dynamic lane analytics
 Vehicle counting and monitoring
+
 ✅ Adaptive Traffic Signal Optimization
 Intelligent green signal timing
 Priority lane recommendation
 Congestion-aware signal switching
 Adaptive intersection control
+
 ✅ Modern SaaS Dashboard
 Professional responsive UI
 Dark/Light mode support
 Realtime analytics visualization
 Traffic insights dashboard
 Beginner-friendly workflow
+
 ✅ Live Camera Monitoring
 Webcam-based traffic monitoring
 Realtime AI inference
 Continuous frame processing
 Dynamic signal updates
+
 ✅ Demo Simulation Mode
 Upload traffic videos
 Replay traffic scenarios
 AI-powered congestion analysis
 Signal optimization simulation
+
 ✅ Cloud AI Demo Deployment
 Public AI inference deployment using Hugging Face Spaces
 Online traffic video analysis
