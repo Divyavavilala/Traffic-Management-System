@@ -7,6 +7,8 @@
   dynamically detecting vehicles, estimating congestion, and adapting signal timing on the fly.
 </p>
 
+<img width="800" height="427" alt="AI Smart Traffic Optimization Platform Demo" src="https://github.com/user-attachments/assets/3a664aee-6c25-4cce-bbdf-ecdc18618773" />
+
 <p>
   <img src="https://img.shields.io/badge/Python-3.10%2B-blue?style=flat-square&logo=python" />
   <img src="https://img.shields.io/badge/FastAPI-0.115%2B-009688?style=flat-square&logo=fastapi" />
