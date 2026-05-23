@@ -147,6 +147,16 @@ export default function DashboardPage() {
               onFocusUpload={handleFocusUpload}
               hasUploadedVideo={!!pendingDemo}
             />
+            <div className="flex justify-center sm:justify-start">
+  <a
+    href="https://huggingface.co/spaces/diviy-123/ai-smart-traffic-demo"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-flex items-center justify-center rounded-xl bg-orange-500 px-6 py-3 text-sm font-semibold text-white shadow-lg transition-all duration-300 hover:bg-orange-600 hover:scale-[1.02]"
+  >
+    Launch Public AI Demo
+  </a>
+</div>
             <ModeSelector
               selected={inputMode}
               onSelect={setInputMode}
