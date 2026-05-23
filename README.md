@@ -348,7 +348,24 @@ Traffic-Management-System/
 | AI inference demo | **Hugging Face Spaces** | Upload video → congestion analysis |
 | Full real-time backend | **Local / self-hosted** | Requires webcam + GPU recommended |
 
-> Free cloud platforms (Render, Railway, etc.) have limitations with real-time OpenCV processing and WebSocket streaming. The full real-time experience is best run locally or on a GPU-enabled server.
+### Deployment Notes
+
+The complete platform was originally designed as a unified real-time system comprising:
+
+- FastAPI backend with WebSocket-based streaming
+- YOLOv8 vehicle detection and OpenCV frame processing
+- Adaptive traffic signal optimization
+- Live camera monitoring and real-time dashboard analytics
+
+During deployment, free-tier cloud hosting platforms proved insufficient for the computational demands of continuous computer vision inference (YOLO + OpenCV + video streaming). To ensure a stable and publicly accessible experience, the system was split into a practical three-tier deployment:
+
+- **Frontend** deployed on Vercel for a fast, globally distributed UI
+- **AI inference demo** deployed on Hugging Face Spaces for public access to vehicle detection, congestion estimation, and adaptive signal recommendations via video upload
+- **Full real-time backend** maintained locally for complete live-camera demonstrations
+
+This separation reflects a production-style architecture that decouples the frontend platform, AI inference service, and real-time processing pipeline — demonstrating pragmatic deployment optimization under resource-constrained cloud environments.
+
+> A complete local demo video (`.mp4`) showcasing live camera monitoring, adaptive signal switching, real-time analytics, and WebSocket updates will be added to this repository.
 
 ---
 
